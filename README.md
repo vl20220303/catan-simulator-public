@@ -1,3 +1,5 @@
+# About
+This is a online, multiplayer version of Catan created by us for our CS final (2025).
 # Before you start
 ## Security Concerns
 Hosting the multiplayer function of this game requires you to open your web server to users on your network. <br>
