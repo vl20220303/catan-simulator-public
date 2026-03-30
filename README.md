@@ -1,5 +1,5 @@
 # About
-This is a online, multiplayer version of Catan created by us for our CS final (2025).
+This is a online, multiplayer remake of the popular board game Catan created by us for our CS final (2025).
 # Before you start
 ## Security Concerns
 Hosting the multiplayer function of this game requires you to open your web server to users on your network. <br>
@@ -25,8 +25,10 @@ Enter the access link provided by the host in your browser. In order for you to 
 Then, enter your name and the game password (as set by the host). If you have an incorrect password or a missing or duplicate player name, you will be unable to join. You may need to refresh your page to join again.<br><br>
 Once you are in the game, you will be able to see the game board. You will be able to play once the host starts the game.<br>
 ## You play as the green player.
-- On each turn, dice are rolled automatically, and players collect resources from adjacent tiles.
+- In the first round, each player can place one settlement and one road anywhere. Then, each player can place another settlement and road anywhere on the board. The roads need to be connected to their respective settlements.
+- On each turn, dice are rolled automatically, and players collect resources from adjacent tiles to the settlements they have placed wiht numbers that correspond to the number rolled.
 - You can build roads, settlements, or upgrade settlements into cities using resources.<br>
+- You can also buy development cards using resources.
 ## Building Costs
 - Roads are placed on the edges between tiles and require 1 Brick and 1 Lumber.
 - Settlements are built on tile corners and cost 1 Brick, 1 Lumber, 1 Wool, and 1 Grain.
@@ -46,5 +48,5 @@ Trades allow for the exchange of resources.
 ## Winning the Game
 The objective is to reach 10 victory points as quickly as possible.
 - Settlements give 1 point each.
-- Upgrading to cities give an additional 2 points each.
+- Upgrading to cities give 2 points for each city, replacing the 1 point of the settlement.
 - The first player to 10 points wins the game.
